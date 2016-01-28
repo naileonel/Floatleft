@@ -1,0 +1,22 @@
+div>div{
+	height:50px;
+	width:70px;
+	border:1px ridge;
+    }
+ .com{
+    width: 500px;
+    margin-top: 20px;
+    border: 2px solid purple;
+	}
+.rojo{
+  background-color: red;
+	}
+.azul{
+	background-color: blue;
+	}
+.amarillo{
+	background-color: yellow;
+	}
+.clearfix{
+	
+}
