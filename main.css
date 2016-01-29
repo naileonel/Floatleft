@@ -1,7 +1,8 @@
 div>div{
-	height:50px;
+	height:100px;
 	width:70px;
 	border:1px ridge;
+	float:left;
     }
  .com{
     width: 500px;
@@ -17,6 +18,10 @@ div>div{
 .amarillo{
 	background-color: yellow;
 	}
-.clearfix{
-	
+.clear:before,.clearfix:after{
+    content: "";
+    display: table;
+   }
+.clearfix:after{
+	clear:both;
 }
